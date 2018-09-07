@@ -33,7 +33,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Not started
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Culture
@@ -46,7 +46,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: In progress
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Economy
@@ -59,7 +59,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Achieved
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Environment
@@ -72,7 +72,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Compromised
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Government
@@ -85,7 +85,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Immigration
@@ -98,7 +98,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Not started
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Indegenous
@@ -111,7 +111,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Achieved
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Security
@@ -124,7 +124,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Compromised
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Health
@@ -137,7 +137,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: In progress
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: World
@@ -150,7 +150,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Education
