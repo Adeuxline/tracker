@@ -18,7 +18,7 @@ title: Farles Mifel Tracker
 email: laberomain+micheltracker@gmail.com
 author: Romain
 description: Le tracker de Farles Mifel !
-url: 
+url: https://adeuxline.github.io/tracker
 twitter_username: VirenMohindra
 github_username:  TrumpTracker
 
@@ -53,3 +53,4 @@ compress_html:
 # Be sure to exclude vendor from your  _config.yml
 # Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
 # https://jekyllrb.com/docs/continuous-integration/
+
