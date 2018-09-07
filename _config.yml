@@ -13,8 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Michel Tracker
+name: Farles Mifel Tracker
+title: Farles Mifel Tracker
 email: laberomain+micheltracker@gmail.com
+author: Romain
 description: Le tracker de Farles Mifel !
 url: 
 twitter_username: VirenMohindra
