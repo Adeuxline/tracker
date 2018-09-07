@@ -32,15 +32,15 @@ statuses:
 
 promises:
     -
-        title: 'Jamais avec la NVA !'
-        description: 'Nomalement jamais avec la NVA'
-        url: 'https://trumptracker.github.io/jamais-avec-la-nva-/'
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
-        category: Alliance
+        category: First 100 Days
         tags:
-            - 'Mensonge'
+            - 'Contract with the American Voter - 100 Day Plan'
         comments:
-            - ''
+            - 'https://redd.it/5d4r8m'
         sources:
-            - 'http://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'

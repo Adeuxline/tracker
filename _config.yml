@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Trump Tracker
-email: viren.mohindra+trump@gmail.com
+title: Michel Tracker
+email: laberomain+micheltracker@gmail.com
 description: Track Donald J Trump's Electoral Promises with Trump Tracker.
-url: https://trumptracker.github.io
+url: https://adeuxline.github.io/tracker
 twitter_username: VirenMohindra
 github_username:  TrumpTracker
 
