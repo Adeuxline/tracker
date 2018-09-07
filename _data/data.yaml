@@ -1,32 +1,32 @@
 # Status has five options: Not started, In progress, Achieved, Broken, and Compromised
 
 icons:
-    First 100 Days: clock-o
+    Premiers 100 jours: clock-o
     Culture: music
-    Economy: dollar
-    Environment: leaf
-    Government: university
+    Économie: dollar
+    Environnement: leaf
+    Gouvernement: university
     Immigration: suitcase
-    Indigenous: users
-    Security: fighter-jet
-    Health: heart
-    World: globe
-    Education: graduation-cap
+    Population: users
+    Sécurité: fighter-jet
+    Santé: heart
+    Monde: globe
+    Éducation: graduation-cap
 
 statuses:
-    Not started:
+    Non commencée:
         color: info
         icon: hourglass-start
-    In progress:
+    En progression:
         color: warning
         icon: cogs
-    Achieved:
+    Accomplie:
         color: success
         icon: check-circle-o
-    Broken:
+    Échouée:
         color: danger
         icon: ban
-    Compromised:
+    Compromise:
         color: compromised
         icon: handshake-o
 
