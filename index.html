@@ -8,6 +8,7 @@ layout: page
 {% assign total = promises | size %}
 
 {% assign categories = promises | map: 'category' | uniq %}
+{% assign lang = site.data.lang_fr %}
 
 <div class="container promises-header page-header" id="promises-header">
     <div class="row">
@@ -20,7 +21,7 @@ layout: page
                 </li> -->
                 <li class="list-group-item list-group-item">
                     <i class="fa fa-calendar fa-fw"></i>
-                    <b>Nombre de jours au gouvenement: <span id="days-in-office"><i class='loading'>Loading...</i></span></b>
+                    <b>{{site.data.lang_fr.number_of_days}}: <span id="days-in-office"><i class='loading'>{{site.data.lang_fr.loading}}</i></span></b>
                 </li>
 
                 {% for status in statuses %}
@@ -37,24 +38,23 @@ layout: page
         </div>
 
         <div class="container-fluid">
-            <p>Le gouvernement Michel est arrivé au gouvernement belge.</p>
-            <p>Il nous a fait <b>énormément de promesses</b>. Michel tracker a pour objectif de montrer les promesses de campagnes non tenues, les comparant avec celles effectivement tenues.</p>
-            <div id="share-buttons" class="text-center">
+        {{site.data.lang_fr.site_description}}    
+	<div id="share-buttons" class="text-center">
                 <ul class="list-inline">
                     <li>
-                        <a href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank"
+                        <a href="https://www.facebook.com/sharer.php?u={{site.url}}" target="_blank"
                            style="color:#3b5998;">
                             <i class="fa fa-2x fa-facebook-square"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/share?url=https://trumptracker.github.io/" target="_blank"
+                        <a href="https://plus.google.com/share?url={{site.url}}" target="_blank"
                            style="color:#dd4b39;">
                             <i class="fa fa-2x fa-google-plus"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/share?url=https://trumptracker.github.io/&amp;text=Track&nbsp;&commat;realDonaldTrump&apos;s&nbsp;Electoral&nbsp;Promises&nbsp;with&nbsp;Trump&nbsp;Tracker.&amp;hashtags=TrumpTracker&amp;via=VirenMohindra"
+                        <a href="https://twitter.com/share?url={{site.url}}&amp;text=Track&nbsp;&commat;realDonaldTrump&apos;s&nbsp;Electoral&nbsp;Promises&nbsp;with&nbsp;Trump&nbsp;Tracker.&amp;hashtags=TrumpTracker&amp;via=VirenMohindra"
                            target="_blank" style="color:#1da1f2;">
                             <i class="fa fa-2x fa-twitter"></i>
                         </a>
@@ -79,9 +79,9 @@ layout: page
     <div class="row promises__search-row">
         <div class="col-md-5">
             <form action="#" class="form-inline">
-                <input id="search" type="text" class="form-control search" placeholder="Rechercher">
+                <input id="search" type="text" class="form-control search" placeholder="{{site.data.lang_fr.search_bar}}">
                 <button class="promises__category--reset btn btn-default">
-                    <i class="fa fa-fw fa-refresh"></i> Réinitialiser le filtre
+                    <i class="fa fa-fw fa-refresh"></i> {{site.data.lang_fr.clear_filter}}
                     <i class="fa fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}
                 </button>
             </form>
@@ -147,9 +147,9 @@ layout: page
                         <!--<th>Status</th>-->
                         <!--<th>Category</th>-->
                         <!-- <th>Tags</th> -->
-                        <th>Promesses</th>
+                        <th>{{site.data.lang_fr.promesses}}</th>
                         <!-- <th>Sources</th> -->
-                        <th>Actions</th>
+                        <th>{{site.data.lang_fr.actions}}</th>
                     </tr>
                     </thead>
 

@@ -1,0 +1,69 @@
+# Traduction du site en français
+
+####################################################################
+#                                                                  #
+#                         PAGE D'ACCUEIL                           #
+#                                                                  #
+####################################################################
+# Barre de navigation
+title: "Michel Tracker"
+about: "About us"
+new_promise: "Submit a new policy"
+sources: "Will need sources !"
+
+# Cadre du nombre de jours au gouvernement
+number_of_days: "Days in office"
+loading: "Loading..."
+not_started: "Not started"
+in_progress: "In progress"
+achieved: "Achieved"
+broken: "Broken"
+compromised: "Compromised"
+
+# Description du site
+site_description: "Le gouvernement Michel est arrivé au gouvernement belge.<br/>Il nous a fait <b>énormément de promesses</b>. Michel tracker a pour objectif de montrer les promesses de campagnes non tenues, les comparant avec celles effectivement tenues."
+
+# Filtre
+search_bar: "Search"
+clear_filter: "Clear"
+
+# Catégories
+first_100_days: "First 100 Days"
+culture: "Culture"
+economy: "Economy"
+environment: "Environment"
+government: "Gouvernment"
+immigration: "Immigration"
+indegenous: "Indegenous"
+security: "Security"
+health: "Health"
+world: "World"
+education: "Education"
+
+# Liste des promesses
+promesses: "Promesses"
+actions: "Actions"
+
+# pied de page
+open_source_github: "Open Source at"
+maintained_by: "Maintained by"
+inspired_by: "Inspired par"
+open_data: "Open Data"
+privacy_policy: "Privacy Policy and T&C"
+
+
+####################################################################
+#                                                                  #
+#                       PAGE DE PROMESSE                           #
+#                                                                  #
+####################################################################
+# Réseaux sociaux
+share_facebook: "Share"
+share_twitter: "Tweet"
+comment_reddit: "Place comment"
+# Texte
+category: "Category"
+status: "Status"
+sources: "Sources"
+comments: "Comments"
+

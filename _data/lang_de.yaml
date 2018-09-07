@@ -1,0 +1,69 @@
+# Traduction du site en français
+
+####################################################################
+#                                                                  #
+#                         PAGE D'ACCUEIL                           #
+#                                                                  #
+####################################################################
+# Barre de navigation
+title: "Michel Tracker"
+about: "À propos"
+new_promise: "Soumettre une nouvelle promesse"
+sources: "Merci d'indiquer vos sources !"
+
+# Cadre du nombre de jours au gouvernement
+number_of_days: "Nombre de jours au gouvernement"
+loading: "Chargement..."
+not_started: "Not started"
+in_progress: "In progress"
+achieved: "Achieved"
+broken: "Broken"
+compromised: "Compromised"
+
+# Description du site
+site_description: "Le gouvernement Michel est arrivé au gouvernement belge.<br/>Il nous a fait <b>énormément de promesses</b>. Michel tracker a pour objectif de montrer les promesses de campagnes non tenues, les comparant avec celles effectivement tenues."
+
+# Filtre
+search_bar: "Rechercher"
+clear_filter: "Réinitialiser le filtre"
+
+# Catégories
+first_100_days: "Premiers 100 jours"
+culture: "Culture"
+economy: "Économie"
+environment: "Environnement"
+government: "Gouvernement"
+immigration: "Immigration"
+indegenous: "Social"
+security: "Sécurité"
+health: "Santé"
+world: "Monde"
+education: "Éducation"
+
+# Liste des promesses
+promesses: "Promesses"
+actions: "Actions"
+
+# pied de page
+open_source_github: "Open Source at"
+maintained_by: "Maintenu par"
+inspired_by: "Inspiré par"
+open_data: "Open Data"
+privacy_policy: "Privacy Policy and T&C"
+
+
+####################################################################
+#                                                                  #
+#                       PAGE DE PROMESSE                           #
+#                                                                  #
+####################################################################
+# Réseaux sociaux
+share_facebook: "Share"
+share_twitter: "Tweet"
+comment_reddit: "Place comment"
+# Texte
+category: "Catégorie"
+status: "Status"
+sources: "Sources"
+comments: "Commentaires"
+
