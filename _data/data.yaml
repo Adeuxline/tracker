@@ -1,7 +1,6 @@
 # Status has five options: Not started, In progress, Achieved, Broken, and Compromised
 
 icons:
-    First 100 Days: clock-o
     Culture: music
     Economy: dollar
     Environment: leaf
@@ -35,9 +34,126 @@ promises:
         title: 'Jamais avec la NVA'
         description: ''
         url: '/jamais-avec-la-nva/'
+        status: Not started
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: Culture
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
+        status: In progress
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: Economy
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
+        status: Achieved
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: Environment
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
+        status: Compromised
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: Government
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
-        category: First 100 Days
+        category: Immigration
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
+        status: Not started
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: Indegenous
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
+        status: Achieved
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: Security
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
+        status: Compromised
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: Health
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
+        status: In progress
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: World
+        tags:
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'https://www.lalibre.be/actu/politique-belge/andre-antoine-le-mr-avait-dit-jamais-avec-la-n-va-54339c7c357030e61044d879'
+    -
+        title: 'Jamais avec la NVA'
+        description: ''
+        url: '/jamais-avec-la-nva/'
+        status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        category: Education
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
         comments:
