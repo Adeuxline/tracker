@@ -34,7 +34,7 @@ promises:
     -
         title: 'Jamais avec la NVA'
         description: ''
-        url: '/jamais-avec-la-nva/'
+        url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
