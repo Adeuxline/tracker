@@ -36,7 +36,7 @@ promises:
         url: 'https://adeuxline.github.io/tracker/jamais-avec-la-nva/'
         status: Not started
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
-        category: Culture
+        category: Economy
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
         comments:
