@@ -63,6 +63,7 @@ task :generatestatic do
 		if status_info != ''
 		  status_info = "<b>#{status_info}</b><br><br>"
 		end
+		parti = x['parti']
 		comments = x['comments'][0]
 		commentsarray = x['comments'].to_json.sub! "https://redd.it/", ""
 		category = x['category']
@@ -126,6 +127,7 @@ task :generatestatic do
 		layout.gsub! "{{ page.status }}", status
 		layout.gsub! "{{ page.description }}", description
 		layout.gsub! "{{ page.status_info }}", status_info
+		layout.gsub! "{{ page.parti }}", parti
 		layout.gsub! "{{ tweettext }}", tweettext
 		layout.gsub! "{{ page.comments }}", comments
 		layout.gsub! "{{ page.commentsid }}", commentsarray

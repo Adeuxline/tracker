@@ -58,9 +58,10 @@ privacy_policy: "Privacy Policy and T&C"
 #                                                                  #
 ####################################################################
 # Réseaux sociaux
-share_facebook: "Share"
+share_facebook: "Partager"
 share_twitter: "Tweet"
-comment_reddit: "Place comment"
+comment_reddit: "Commenter"
+no_blocker: "Merci d'activer le Javascript ou de désactiver vos bloqueurs de publicité pour voir les commentaires."
 # Texte
 category: "Catégorie"
 status: "Status"

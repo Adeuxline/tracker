@@ -3,29 +3,36 @@
 icons:
     Culture: music
     Economy: dollar
+    Finances: dollar
     Environment: leaf
+    Environnement: leaf
+    Gouvernement: university
     Government: university
     Immigration: suitcase
     Indegenous: users
+    Social: users
     Security: fighter-jet
+    Sécurité: fighter-jet
     Health: heart
+    Santé: heart
     World: globe
+    Monde: globe
     Education: graduation-cap
 
 statuses:
-    Not started:
+    Pas commencé:
         color: info
         icon: hourglass-start
-    In progress:
+    En progression:
         color: warning
         icon: cogs
-    Achieved:
+    Accompli:
         color: success
         icon: check-circle-o
-    Broken:
+    Échoué:
         color: danger
         icon: ban
-    Compromised:
+    En compromis:
         color: compromised
         icon: handshake-o
 
@@ -36,7 +43,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/suppression-du-collge-provincial/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -49,7 +57,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/remplacement-du-conseil-provincial-par-une-reprsentation-des-communes-de-la-province/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -62,7 +71,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/pour-plus-defficacit-et-de-meilleurs-services-en-faveur-des-citoyens/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -75,7 +85,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/rgles-en-matire-de-cumuls-de-mandats-et-de-rmunration/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -88,7 +99,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/la-transparence-totale-des-mandats-des-lus-et-nonlus/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -101,7 +113,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/lier-toute-rmunration-fixe-perue/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -114,7 +127,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/une-rduction-gnrale-du-nombre-de-conseillers-communaux/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -127,7 +141,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/une-formation-pour-les-nouveaux-administrateurs/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -140,7 +155,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/rduction-des-cots-de-structure-et-de-fonctionnement-par-les-intercommunales/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -153,7 +169,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/rduction-du-nombre-dadministrateurs-dans-les-intercommunales/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -166,7 +183,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/les-plafonds-de-rmunration-des-intercommunales/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -179,7 +197,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/une-rationalisation-du-secteur-du-logement-social/'
         status: Not started
         status_info: ''
-        category: Indegenous
+        parti: "MR"
+        category: Social
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -192,7 +211,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/pour-une-transparence-accrue-des-dcisions-communales/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -205,7 +225,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/la-fusion-volontaire-des-petites-communes/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -218,7 +239,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/la-commune-doit-offrir-le-meilleur-service/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -231,7 +253,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/pour-une-institution-supracommunale-modernise/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -244,7 +267,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/garantir-un-service-de-qualit-et-dont-le-cot-est-maitris-pour-le-particulier/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -257,7 +281,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/garantir-un-service-de-qualit/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -270,7 +295,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/es-moyens-humains-et-budgtaires-ncessaires/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -283,7 +309,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/la-transparence-des-dcisions-en-matire-de-subventionnement/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -296,7 +323,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/objectivation-des-recrutements/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -309,7 +337,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/renforcement-de-la-motivation-du-personnel-par-une-dynamisation/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -322,7 +351,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/pour-un-meilleur-financement-des-pensions-des-agents-locaux/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -335,7 +365,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/matrise-budgtaire-des-frais-de-personnel/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -348,7 +379,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/pour-une-vritable-politique-de-management/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -361,7 +393,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/pour-une-meilleure-accessibilit-des-services-communaux/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -370,11 +403,12 @@ promises:
             - 'http://www.mr.be'
     -
         title: 'Des guichets électroniques pour des demandes administratives'
-        description: '<p>Développer des guichets électroniques offrant un service permanent 24h/24 et 7j/7 (e-government) et un guichet unique qui aurait pour vocation de relayer les demandes administratives vers les services compétents. Il s’agit de réduire drastiquement la charge administrative du citoyen.</p>'
+        description: '<p>Développer des guichets électroniques offrant un service permanent 24h/24 et 7j/7 (e-gouvernement) et un guichet unique qui aurait pour vocation de relayer les demandes administratives vers les services compétents. Il s’agit de réduire drastiquement la charge administrative du citoyen.</p>'
         url: 'https://adeuxline.github.io/tracker/des-guichets-lectroniques-pour-des-demandes-administratives/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -387,7 +421,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/un-site-internet-performant/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -400,7 +435,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/des-communes-20-pour-encourage-linteractivit-avec-les-citoyens/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -413,7 +449,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/favoriser-linformation-vers-le-citoyen/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -426,7 +463,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/des-conseils-communaux-retransmis-sur-internet/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -439,7 +477,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/des-mandataires-communaux-mieux-informs-et-forms/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -452,7 +491,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/un-service-de-qualit-et-moins-coteux-eau-gaz-lctricit-dchets/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -465,7 +505,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/pour-la-numrisation-des-archives-communales/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
@@ -478,7 +519,8 @@ promises:
         url: 'https://adeuxline.github.io/tracker/encourager-les-processus-participatifs/'
         status: Not started
         status_info: ''
-        category: Government
+        parti: "MR"
+        category: Gouvernement
         tags:
             - 'Services communaux'
         comments:
