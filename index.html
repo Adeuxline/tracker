@@ -144,7 +144,7 @@ layout: page
                     <thead>
                     <tr>
 			<th></th>
-                        <th>Parti politique</th>
+			<!--<th>Parti politique</th>-->
                         <!--<th>Status</th>-->
                         <!--<th>Category</th>-->
                         <!-- <th>Tags</th> -->
@@ -159,7 +159,7 @@ layout: page
                     {% for promise in promises %}
                     <tr class="promise {% if promise.status == 'In progress' %}warning{% endif %}{% if promise.status == 'Achieved' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}{% if promise.status == 'Compromised' %}compromised{% endif %}">
                         <td class="promise__id">{{ forloop.index }}.</td>
-			<td>PARTI</td>
+			<!--<td>PARTI</td> -->
 
                         <!--
                          <td class="promise__status" title="{{ promise.status }}">
