@@ -55,10 +55,10 @@ promises:
         title: 'Remplacement du conseil provincial par une représentation des communes de la province'
         description: 'Des élections provinciales se tiendront quoi qu’il arrive le 14 octobre 2018 ; ce devrait être les dernières. Cette volonté de réforme profonde de l’institution provinciale est clairement marquée dans le chef du Mouvement Réformateur.'
         url: 'https://adeuxline.github.io/tracker/remplacement-du-conseil-provincial-par-une-reprsentation-des-communes-de-la-province/'
-        status: Not started
+        status: In progress
         status_info: ''
         parti: "MR"
-        category: Gouvernement
+        category: Finances
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -69,10 +69,10 @@ promises:
         title: 'Pour plus d’efficacité et de meilleurs services en faveur des citoyens'
         description: 'Le MR souhaite redéfinir le paysage local pour plus d’efficacité et de meilleurs services en faveur des citoyens : fusion volontaire des communes, rationalisation des intercommunales et suppression des provinces se complètent.'
         url: 'https://adeuxline.github.io/tracker/pour-plus-defficacit-et-de-meilleurs-services-en-faveur-des-citoyens/'
-        status: Not started
+        status: Achieved
         status_info: ''
         parti: "MR"
-        category: Gouvernement
+        category: Environnement
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -83,10 +83,10 @@ promises:
         title: 'Règles en matière de cumuls de mandats et de rémunération'
         description: 'Des élections provinciales se tiendront quoi qu’il arrive le 14 octobre 2018 ; ce devrait être les dernières. Cette volonté de réforme profonde de l’institution provinciale est clairement marquée dans le chef du Mouvement Réformateur.'
         url: 'https://adeuxline.github.io/tracker/rgles-en-matire-de-cumuls-de-mandats-et-de-rmunration/'
-        status: Not started
+        status: Broken
         status_info: ''
         parti: "MR"
-        category: Gouvernement
+        category: Immigration
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -97,7 +97,7 @@ promises:
         title: 'La transparence totale des mandats des élus et non-élus'
         description: '<p>Le MR soutient l’obligation de faire la transparence totale des mandats qui ont été confiés aux différents élus et non-élus au sein des organes de gestion des structures publiques, parapubliques et dérivées du public, ainsi que les rémunérations liées à ceux-ci.<p><br/><p>En Wallonie, ces données seront prochainement centralisées et publiées nominativement, en toute transparence, sur une plateforme accessible à tous les citoyens. Avec le soutien du MR, une démarche similaire se met en place à Bruxelles.</p><br/> <p>Les mandats directement dérivés de l’exercice d’un mandat exécutif local ne pourront à l’avenir plus faire l’objet de rémunérations complémentaires : ils feront pleinement partie de l’exercice du mandat premier. Il a également été convenu qu’un Bourgmestre ou Échevin empêché wallon n’ait plus d’autres prérogatives que celles d’un conseiller communal. Au surplus, il ne pourra désormais plus présider le conseil communal, ni assister au collège.</p>'
         url: 'https://adeuxline.github.io/tracker/la-transparence-totale-des-mandats-des-lus-et-nonlus/'
-        status: Not started
+        status: Compromised
         status_info: ''
         parti: "MR"
         category: Gouvernement
@@ -114,7 +114,7 @@ promises:
         status: Not started
         status_info: ''
         parti: "MR"
-        category: Gouvernement
+        category: Sécurité
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -142,7 +142,7 @@ promises:
         status: Not started
         status_info: ''
         parti: "MR"
-        category: Gouvernement
+        category: Santé
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -156,7 +156,7 @@ promises:
         status: Not started
         status_info: ''
         parti: "MR"
-        category: Gouvernement
+        category: Monde
         tags:
             - 'Bonne gouvernance'
         comments:
@@ -170,7 +170,7 @@ promises:
         status: Not started
         status_info: ''
         parti: "MR"
-        category: Gouvernement
+        category: Education
         tags:
             - 'Bonne gouvernance'
         comments:
