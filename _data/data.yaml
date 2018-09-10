@@ -20,19 +20,19 @@ icons:
     Education: graduation-cap
 
 statuses:
-    Pas commencé:
+    Not started:
         color: info
         icon: hourglass-start
-    En progression:
+    In progress:
         color: warning
         icon: cogs
-    Accompli:
+    Achieved:
         color: success
         icon: check-circle-o
-    Échoué:
+    Broken:
         color: danger
         icon: ban
-    En compromis:
+    Compromised:
         color: compromised
         icon: handshake-o
 
