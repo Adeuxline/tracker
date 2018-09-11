@@ -3,22 +3,21 @@ layout: page
 ---
 
 {% assign promises = site.data.data.promises %}
+{% assign promises_ecolo = site.data.data.promises.parti['Ecolo'] %}
 {% assign icons = site.data.data.icons %}
 {% assign statuses = site.data.data.statuses %}
-{% assign total = promises | size %}
+{% assign total = promises | where: "parti", "Ecolo" | size %}
 
 {% assign categories = promises | map: 'category' | uniq %}
-{% assign lang = site.data.lang_fr %}
+{% assign lang = site.data.lang_fr %i}
+
+{% assign parti = "Ecolo" %}
 
 <div class="container promises-header page-header" id="promises-header">
     <div class="row">
 
         <div class="col-md-6">
             <ul class="list-group">
-                <!-- <li class="list-group-item list-group-item inauguration-time-container">
-                    <i class="fa fa-home fa-fw"></i>
-                    <b id="inauguration-time">Days Till Inauguration: <span id="inauguration-days"><i class='loading'>Loading...</i></span></b>
-                </li> -->
                 <li class="list-group-item list-group-item">
                     <i class="fa fa-calendar fa-fw"></i>
                     <b>{{lang.number_of_days}}: <span id="days-in-office"><i class='loading'>{{lang.loading}}</i></span></b>
@@ -29,7 +28,7 @@ layout: page
                     {% assign status_data = status[1] %}
                     <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                         <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
-                        {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> of <span class="total-points">{{ total }}</span>
+                        {{ status_name }}: <span class="active-points">{{ promises_ecolo | where: "status",status_name | size }}</span> of <span class="total-points">{{ total }}</span>
                     </li>
                 {% endfor %}
 
@@ -157,6 +156,7 @@ layout: page
                     <tbody class="list">
                     <!-- add color to each policy -->
                     {% for promise in promises %}
+		    {% if promise.parti == "Ecolo" %}
                     <tr class="promise {% if promise.status == 'In progress' %}warning{% endif %}{% if promise.status == 'Achieved' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}{% if promise.status == 'Compromised' %}compromised{% endif %}">
                         <td class="promise__id">{{ forloop.index }}.</td>
 			<!--<td>PARTI</td> -->
@@ -194,6 +194,7 @@ layout: page
 
                         </td>
                     </tr>
+		    {% endif %}
                     {% endfor %}
                     </tbody>
 
