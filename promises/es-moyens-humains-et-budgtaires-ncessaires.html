@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /:basename/
+comments: true
 ---
 <link rel="stylesheet" type="text/css" href="../css/promisepage.css">
 <div class="container">
@@ -12,7 +13,7 @@ permalink: /:basename/
     </div>
     <div class="col-md-12">
 	  <h3>{{site.data.lang_fr.category}}: Gouvernement</h3>
-	  <h3>Parti: MR</h3>
+	  <h3>Parti: <a href="/mr">mr</a></h3>
       <h3>{{site.data.lang_fr.status}}: <span style='color: #31708f;'>Not started</span></h3>
 	  
 	  <p><p>Le MR souligne son attachement au principe de subsidiarité tel que prévu par la Charte européenne de l’Autonomie locale, ratifiée par notre pays et qui confie toute tâche au niveau de pouvoir le plus proche du citoyen, tant qu’il n’est pas établi qu’un niveau de pouvoir supérieur l’effectuerait de meilleure manière.</p><br/><p>Conformément à la Charte européenne, les subventions aux communes ne doivent pas, dans la mesure du possible, être destinées au financement de projets spécifiques mais constituer un financement global de celles-ci, qui ne portent ainsi pas atteinte à la liberté d’action des collectivités locales dans leur propre domaine de compétence.</p><br/><p>Le MR insiste pour que les moyens humains et budgétaires nécessaires à l’exercice de leurs missions soient accordés aux pouvoirs locaux chargés de les mettre en œuvre. Il demande que, lorsque de nouvelles obligations leur sont confiées par d’autres niveaux de pouvoir, ces derniers puissent en assumer le financement.</p></p>
@@ -25,14 +26,29 @@ permalink: /:basename/
 	  </ul>
     </div>
   </div><BR>
-   <div id="reddit_comments">
-	  <h3 class='comments'>{{site.data.lang_fr.comments}}</h3>
-	  <a target="_blank" href="https://redd.it/5d4r8m" class="btn btn-primary placecomment"><i class="fa fa-pencil" aria-hidden="true"></i> {{site.data.lang_fr.comment_reddit}}</a>
-	  <p class='commentcount'></p>
-	  <div class="loader"></div>
-	  <div class="panel-group"><div class="noscript">{{site.data.lang_fr.no_blocker}}</div></div>
-   </div>
+	{% if page.comments %}
+		<div id="disqus_thread"></div>
+		<script>
+
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		
+		var disqus_config = function () {
+		this.page.url = {{ site.url }}es-moyens-humains-et-budgtaires-ncessaires;  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = {{ page.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		
+	(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://belgium-tracker.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+	{% endif %}
 </div>
-<script>var redditid = '["5d4r8m"]';</script>
 <script src="../js/snuownd.min.js"></script>
 <script src="../js/promisepage.js"></script>

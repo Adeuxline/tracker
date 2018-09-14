@@ -64,6 +64,7 @@ task :generatestatic do
 		  status_info = "<b>#{status_info}</b><br><br>"
 		end
 		parti = x['parti']
+		parti = parti.prettyurl
 		comments = x['comments'][0]
 		commentsarray = x['comments'].to_json.sub! "https://redd.it/", ""
 		category = x['category']

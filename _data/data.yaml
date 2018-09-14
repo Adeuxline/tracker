@@ -23,18 +23,23 @@ statuses:
     Not started:
         color: info
         icon: hourglass-start
+        name_fr: "Pas commencée"
     In progress:
         color: warning
         icon: cogs
+        name_fr: "En progression"
     Achieved:
         color: success
         icon: check-circle-o
+        name_fr: "Accomplie"
     Broken:
         color: danger
         icon: ban
+        name_fr: "Échouée"
     Compromised:
         color: compromised
         icon: handshake-o
+        name_fr: "En compromis"
 
 promises:
     -
@@ -237,10 +242,10 @@ promises:
         title: 'La commune doit offrir le meilleur service'
         description: '<p>La commune a également des responsabilités dans le domaine culturel, sportif et social qui lui imposent d’offrir, là aussi, certains services. Le citoyen est en droit d’attendre que ces services lui soient rendus de manière compétente, équitable et professionnelle.</p>'
         url: 'https://adeuxline.github.io/tracker/la-commune-doit-offrir-le-meilleur-service/'
-        status: Not started
+        status: In progress
         status_info: ''
-        parti: "MR"
-        category: Gouvernement
+        parti: "Ecolo"
+        category: Finances
         tags:
             - 'Services communaux'
         comments:
