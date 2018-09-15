@@ -13,7 +13,7 @@ comments: true
     </div>
     <div class="col-md-12">
 	  <h3>{{site.data.lang_fr.category}}: {{ page.category }}</h3>
-	  <h3>Parti: <a href="{{site.url}}/{{ page.parti }}">{{ page.parti }}</a></h3>
+	  <h3>Parti: <a href="{{ site.url }}{{ page.parti }}">{{ page.parti }}</a></h3>
       <h3>{{site.data.lang_fr.status}}: <span style='color: {{ page.statuscolor }};'>{{ page.status }}</span></h3>
 	  {{ page.status_info }}
 	  <p>{{ page.description }}</p>

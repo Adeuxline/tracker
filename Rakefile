@@ -47,7 +47,7 @@ task :serve do
 end
 
 task :generatestatic do
-	puts 'Generating unique promise pages...'.bold
+	puts 'Création des pages...'.bold
 	layout_file = File.open("./_layouts/promise.html", 'r')
 	layout_template = layout_file.read
 	yaml_file = File.open("./_data/data.yaml", 'r')
@@ -115,6 +115,7 @@ task :generatestatic do
 		if tweettext.length > 98
 			tweettext_short << "..."
 		end
+		siteurl = 'https://adeuxline.github.io/tracker/'
 		tweettext = CGI.escape(tweettext_short)
 		url = title.prettyurl
 		titleurl = CGI.escape(title)
@@ -124,6 +125,7 @@ task :generatestatic do
 		layout.gsub! "{{ page.title }}", title
 		layout.gsub! "{{ page.titleurl }}", titleurl
 		layout.gsub! "{{ page.url }}", url
+		layout.gsub! "{{ site.url }}", siteurl
 		layout.gsub! "{{ page.statuscolor }}", statuscolor
 		layout.gsub! "{{ page.status }}", status
 		layout.gsub! "{{ page.description }}", description
@@ -157,7 +159,7 @@ task :generatestatic do
 	}
 	yaml_file.close
 	layout_file.close
-	puts 'Done generating promise pages.'.bold
+	puts 'Pages de promesse créées.'.bold
 end
 
 task :generateurls do
