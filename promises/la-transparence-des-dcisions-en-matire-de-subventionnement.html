@@ -3,23 +3,24 @@ layout: page
 permalink: /:basename/
 comments: true
 ---
+{% assign lang = site.data.lang.lang_fr %}
 <link rel="stylesheet" type="text/css" href="../css/promisepage.css">
 <div class="container">
   <div class="row">
     <div class="col-md-12">
       <h2>La transparence des décisions en matière de subventionnement</h2>
-	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u={{site.url}}la-transparence-des-dcisions-en-matire-de-subventionnement/&title=La+transparence+des+d%C3%A9cisions+en+mati%C3%A8re+de+subventionnement"> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> {{site.data.lang_fr.share_facebook}}</a>
-      <a class="btn twitter" href="https://twitter.com/share?url={{site.url}}&text=%40realDonaldTrump+hasn%27t+started+promise+no.+19%3A+La+transparence+des+d%C3%A9cisions+en+mati%C3%A8re+de+subvent...&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> {{site.data.lang_fr.share_twitter}}</a>
+	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u={{site.url}}la-transparence-des-dcisions-en-matire-de-subventionnement/&title=La+transparence+des+d%C3%A9cisions+en+mati%C3%A8re+de+subventionnement"> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> {{lang.share_facebook}}</a>
+      <a class="btn twitter" href="https://twitter.com/share?url={{site.url}}&text=%40realDonaldTrump+hasn%27t+started+promise+no.+19%3A+La+transparence+des+d%C3%A9cisions+en+mati%C3%A8re+de+subvent...&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> {{lang.share_twitter}}</a>
     </div>
     <div class="col-md-12">
-	  <h3>{{site.data.lang_fr.category}}: Gouvernement</h3>
+	  <h3>{{lang.category}}: Gouvernement</h3>
 	  <h3>Parti: <a href="https://adeuxline.github.io/tracker/mr">mr</a></h3>
-      <h3>{{site.data.lang_fr.status}}: <span style='color: #31708f;'>Not started</span></h3>
+      <h3>{{lang.status}}: <span style='color: #31708f;'>Not started</span></h3>
 	  
 	  <p><p>Pour le MR, la transparence des décisions en matière de subventionnement doit également être assurée. Les subventions octroyées dans l’ensemble des domaines de la vie publique (sport, économie, travaux, etc.) doivent faire l’objet d’une information claire, aisément accessible à chacun sans qu’il soit besoin de poser de lourdes démarches administratives.</p></p>
     </div>
     <div class="col-md-12">
-      <h3>Sources:</h3>
+      <h3>{{lang.sources}}</h3>
 	  <ul class='sources'>
 <li><a class='src' target='_blank' href='http://www.mr.be'>http://www.mr.be</a></li>
 

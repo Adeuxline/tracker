@@ -8,7 +8,7 @@ layout: page
 {% assign total = promises | size %}
 
 {% assign categories = promises | map: 'category' | uniq %}
-{% assign lang = site.data.lang_fr %}
+{% assign lang = site.data.lang.lang_fr %}
 
 <div class="container promises-header page-header" id="promises-header">
     <div class="row">
